@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Application</string>
+    <string name="N1">A</string>
+    <string name="N2">B</string>
+    <string name="RB1">SUMAR</string>
+    <string name="RB2">RESTAR</string>
+    <string name="BUTT">CALCULAR</string>
+    <string name="TV"></string>
+</resources>
