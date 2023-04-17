@@ -5,5 +5,9 @@
     <string name="RB1">SUMAR</string>
     <string name="RB2">RESTAR</string>
     <string name="BUTT">CALCULAR</string>
-    <string name="TV"></string>
+    <string name="BUTT1">INICIO</string>
+    <string name="BUTT2">PAGOS</string>
+    <string name="BUTT3">OFERTAS</string>
+    <string name="TV">0</string>
+    <string name="TV1">EN PROGRESO</string>
 </resources>
