@@ -11,7 +11,7 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
 
     private EditText et1,et2;
-    private TextView tv1;
+    private TextView tv1,tv2;
     private RadioButton rb1,rb2;
 
     @Override
@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         et1=(EditText) findViewById(R.id.et_a1);
         et2=(EditText) findViewById(R.id.et_a2);
         tv1=(TextView) findViewById(R.id.TexV);
+        tv2=(TextView) findViewById(R.id.textView2);
         rb1=(RadioButton) findViewById(R.id.RB1);
         rb2=(RadioButton) findViewById(R.id.RB2);
     }
@@ -44,5 +45,11 @@ public class MainActivity extends AppCompatActivity {
             String result = String.valueOf(restar);
             tv1.setText(result);
         }
+    }
+    public void Progreso1 (View view){
+        tv2.setText("EN PROGRESO");
+    }
+    public void Progreso2 (View view){
+        tv2.setText("Por crear");
     }
 }
